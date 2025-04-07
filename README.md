@@ -31,7 +31,7 @@ BAUD = 115200
 FILENAME = f"test_data_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
 ```
 
-3. Data Post-Processing Utility (postprocess.py)
+Data Post-Processing Utility (postprocess.py)
 Processes raw CSV data by reformatting values and applying scaling factors to the captured sensor readings.
 
 ```
@@ -44,7 +44,7 @@ except (ValueError, IndexError):
     pass
 ```
 
-4. Data Visualization Tool (plotter.py)
+Data Visualization Tool (plotter.py)
 Creates sophisticated multi-axis plots showing the relationships between pitch angle, fuel level, and temperature data over time.
 Technical Details
 Control System Architecture
