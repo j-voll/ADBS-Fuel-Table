@@ -1,4 +1,3 @@
-Overview
 This project is a comprehensive toolkit for conducting pitch testing on fuel systems. It consists of an Arduino-based control system that precisely manipulates a test platform's pitch angle, collects sensor data, and several Python utilities for data capture and visualization. The system is designed for testing how fuel level and temperature sensors respond during controlled pitch changes.
 Key Components
 1. Arduino Firmware (sketch_mar26a.ino)
